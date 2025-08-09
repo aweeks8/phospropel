@@ -631,8 +631,9 @@ def plotZscoreHeatmap(
                     ax.add_patch(rect)
 
     # Save to file
-    fig.savefig(pdfname, bbox_inches='tight')
     plt.show(fig)
+    fig.savefig(pdfname, bbox_inches='tight')
+
 
     # Save adjusted p-values if needed
 # Defaults
