@@ -18,6 +18,7 @@ dependencies = [
 
 [tool.setuptools]
 packages = ["phospropel"]
+include-package-data = true
 
 [build-system]
 requires = ["setuptools>=61.0"]
