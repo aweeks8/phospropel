@@ -8,7 +8,7 @@ Tools for working with phosphoproteome derived peptide library data
 
 
 ```bash
-pip install git+https://github.com/YOURURL/phospropel
+pip install git+https://github.com/aweeks8/phospropel
 ```
 
 ## Example Usage
