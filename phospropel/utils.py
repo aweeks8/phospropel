@@ -632,7 +632,7 @@ def plotZscoreHeatmap(
 
     # Save to file
     fig.savefig(pdfname, bbox_inches='tight')
-    plt.close(fig)
+    plt.show(fig)
 
     # Save adjusted p-values if needed
 # Defaults
