@@ -650,7 +650,7 @@ def plotZscoreHeatmap(
         df = pd.DataFrame(pvals_adj, index=row_labels, columns=col_labels)
         df.to_csv(save_pvals_file)
 
-    return rejected_matrix, pvals_adj
+    return
 
 def plotZscoreHeatmapBubble(zscorearray, phospho_freq, pdfname):
     aminoacids = ['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y','s','t','y','_']  # ← add '_' to make 24
